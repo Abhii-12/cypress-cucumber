@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "runOnChrome": "cypress run --browser chrome"
+    "runOnChrome": "cypress run --browser chrome --env allure=true --headed"
   },
   "keywords": [
     "cucumber",
